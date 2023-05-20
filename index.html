@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/291707f091.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>English Dictionnary App</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>English Dictionnary</header>
+        <div class="search">
+            <input type="text" placeholder="search a word..." required>
+            <i class="fas fa-search"></i>
+            <span class="material_icons"><i class="fas fa-times"></i></span>
+        </div>
+        <p class="info_text">Type a word and press enter to get meaning, example, pronunciation and synonyms of that typed word.</p>
+        <ul>
+            <li class="word">
+                <div class="details">
+                    <p></p>
+                    <span></span>
+                </div>
+                <i class="fas fa-volume-up"></i>
+            </li>
+            <div class="content">
+                <li class="meaning">
+                    <div class="details">
+                        <p>Meaning</p>
+                        <span></span>
+                    </div>
+                </li>
+                <li class="synonyms">
+                    <div class="details">
+                        <p>Synomyms</p>
+                        <div class="list"></div>
+                    </div>
+                </li>
+            </div>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
